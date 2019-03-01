@@ -6,23 +6,30 @@
   </head>
   <body>
     <script type="application/ld+json">
-   {
-     "@context": "http://schema.org/",
-     "@type": "3DModel",
-     "image": "preview.jpg",
-     "name": "3D Model",
-     "encoding": {
-     "@type":"MediaObject",
-     "contentUrl": "model.usdz",
-     "encodingFormat": "model/vnd.usdz+zip"
-      },
+      {
+      "@context": "http://schema.org/",
+      "@type": "3DModel",
+      "image": "thumbnail.jpg",
+      "name": "Barramundi Fish",
+      "encoding": [
+        {
+        "@type":"MediaObject",
+        "contentUrl": "BarramundiFish.usdz",
+        "encodingFormat": "model/vnd.usdz+zip"
+        },
+        "@type":"MediaObject",
+        "contentUrl": "BarramundiFish.gltf",
+        "encodingFormat": "model/gltf+json"
+        {
+        }
+      ],
       "audio": {
-      "@type":"AudioObject",
-      "contentUrl": "audio.mp3",
-      "encodingFormat": "audio/mpeg"
+        "@type":"AudioObject",
+        "contentUrl": "audio.mp3",
+        "encodingFormat": "audio/mpeg"
       }
-   }
-</script>
+    }
+  </script>
 Hello, World!!!
 
 glglororiaia1336airolg
